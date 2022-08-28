@@ -15,6 +15,7 @@ function App() {
           setSearchTerm(event.target.value);
         }}
       />
+      <h2>Ex: Monkey, Salmon, Racoon...</h2>
       {JSONDATA.filter((val)=> {
         if(searchTerm === '') {
           return val
